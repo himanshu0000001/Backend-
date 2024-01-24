@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Sign{
+    box-shadow: 0px 0px 5px -2px black;
+}
+
+@media (max-width: 768px) {
+    .Sign{
+        width:80%;
+    }
+}
